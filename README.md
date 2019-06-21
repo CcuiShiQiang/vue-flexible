@@ -1,6 +1,8 @@
 # vue-flexible
-
 ## Project setup
+
+### 阿里手淘可伸缩布局方案amfe-flexible
+
 ```
 npm install
 ```

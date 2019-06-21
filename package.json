@@ -9,7 +9,9 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "amfe-flexible": "^2.2.1",
     "core-js": "^2.6.5",
+    "postcss-px2rem": "^0.3.0",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3"
   },
@@ -45,7 +47,10 @@
   },
   "postcss": {
     "plugins": {
-      "autoprefixer": {}
+      "autoprefixer": {},
+      "postcss-px2rem": {
+        "remUnit": 37.5
+      }
     }
   },
   "browserslist": [
